@@ -1,0 +1,28 @@
+PROBLEM STATEMENT:
+        Recruiting persons is not an easy task for a comapany .Because they need to pick persons who can work with their conditions.Different departments in acompany need different persons.So the companys need to be very picky.So we arrived at asolution that can solve this issue.
+
+Solutoion:
+        With help of Machine learning and Meyers-brigg-personality type data set.There are 16 Meyers-Briggs personality type. Each has its own pros and cons.We analyze the persons - personality type through his posts or speech and will take a decision whether the person will fit for the job or not. 
+        
+        
+        
+MODULES USED:
+1)Pandas
+2)numpy
+3)sklearn
+4)Matplotlib
+5)NLTK(Natural language processing Module)
+6)XGBoost(for tuning up)
+
+
+PROCESS:
+1) Meyers-Briggs dataset is analyzed. the data set contains posts and tweets of the persons belonging to the 16-personality types.
+2)Then number of occurence of each personality type iis counted.
+3)Each personality posts are processed using NLP.
+4)their features are then extracted.
+5)Then the dataset  is divide into training and test.
+6)XGBclassifier is applied on training dataset and then the model is tested.
+7)Then the model is trained on each of the types.
+8)Then it is fine tuned by XGBoost method.
+9)then a sample post is given as input.....then comes almost perfect output.
+        
